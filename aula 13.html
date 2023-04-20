@@ -1,0 +1,219 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>meu site em Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    </head>
+    <body class="bg-secondary">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="https://www.apple.com/br/store?afid=p238%7CsikJb1MHC-dc_mtid_1870765e38482_pcrid_649520934899_pgrid_17049243418_pntwk_g_pchan__pexid__&cid=aos-br-kwgo-brand--slid---product-" target="_blank"><img src="apple-logo-removebg-preview.png" alt="1" height="50%" width="50%"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="https://brasildobem.com.br/?gclid=EAIaIQobChMIoJ_z-7ai_gIVwidMCh22FwKcEAAYASAAEgJmM_D_BwE" target="_blank">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://terraria.org" target="_blank">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="https://www.google.com.br/" target="_blank">Google</a></li>
+                      <li><a class="dropdown-item" href="https://lista.mercadolivre.com.br/" target="_blank">Mercado Livre</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="https://www.minecraft.net/pt-br" target="_blank">Other Sites</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Soon</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+          <div class="container my-2">
+            <div class="row g-3">
+                <div class="col-6">
+                  <div class="card bg-dark text-light">
+                    <Img src="minecraft-HERO (1).jpg" class="card-img-top">
+                      <div class="card-body">
+                        <h1 class="card-title">Minecraft</h1>
+                        <p class="card-text">Minecraft concorre ao jogo do ano em 2023, Baixe Agora!<br>Disponivel em todas as platformas</p>
+                        <a href="https://www.minecraft.net/pt-pt/store/minecraft-java-bedrock-edition-pc" class="btn btn-primary" target="blank">Compre Agora!</a>
+                      </div>
+                  </div class="bg-dark">
+                  </div>
+                  <div class="col-6">
+                  <div class="card bg-dark text-light">
+                    <Img src="TLauncher-Bedrock-Edition.jpg" class="card-img-top">
+                      <div class="card-body">
+                        <h1 class="card-title">Tlauncher</h1>
+                        <p class="card-text">Baixe de graça o Minecraft que é simplesmente um dos concorrentes ao jogo do ano em 2023, Baixe Agora!</p>
+                        <a href="https://tlauncher.org/en/" class="btn btn-primary" target="blank">adquira!</a>
+                      </div>
+                  </div class="bg-dark">
+                </div>
+            </div>
+            <button class="btn btn-danger" title="Minecraft" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Minecraft um jogo de sobrevivencia quadrado, com muitos bosses e conquistas ,e uma gama de coisas para fazer, tambem é um dos jogos com mais MODS, criado em 2009 por Markus Persson notch e depois desenvolvido por Jens Bergensten.">Sobre Minecraft</button>
+   <!-- ativando os popovers -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>      
+         <script>
+        /* seleciona popovers */
+      let popovers = document.querySelectorAll('[data-bs-toggle="popover"]')
+         /* ativar cada popover */
+        for(let i of popovers){
+          new bootstrap.Popover(i);
+          }
+      </script>
+      <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Talk to us Minecraft
+      </button>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Error</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              ... Oh Oh there was an unexpected error happened wait a moment.
+              your assistant will help you.Minecraft Site is ​​being worked on, wait.
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <a href="Complemento13.html" type="button" class="btn btn-primary">Wait</a>
+            </div>
+          </div>
+        </div>
+      </div>
+         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="606269-q2znhdyjxubmrjuiv5xaridtf3uy4wdwcblnbsakco.jpg" class="d-block w-100" height="650" width="650">
+            </div>
+            <div class="carousel-item">
+              <img src="minecraft_trails_tales_1681392949100_1681392961971_1681392961971.jpg" class="d-block w-100" height="650" width="650">
+            </div>
+            <div class="carousel-item">
+              <img src="Fqt7ASZaUAAeevh-850x560.jpg" class="d-block w-100" height="650" width="650">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div> 
+        <h1><a class="btn btn-lg" href="https://www.curseforge.com" target="_blank">Tudo sobre o Minecraft</a></h1>
+       <p>Minecraft é um jogo de construção, aventura e sobrevivência do gênero sandbox. Ele foi lançado oficialmente em 2011 pela Mojang Studios.
+         Em games estilo sandbox, os players possuem liberdade para explorar e experimentar tudo ao seu redor, sem muitas restrições e objetivos definidos.
+         
+         Essa, portanto, é a premissa do título. O jogo permite que os usuários explorem, construam e criem coisas num mundo gerado proceduralmente, feito de blocos.
+         
+         Eles podem coletar recursos, forjar ferramentas e criar estruturas, tudo enquanto enfrentam desafios, como monstros e condições climáticas adversas.
+         
+         Criado por Markus “Notch” Persson e depois desenvolvido por Jens “Jeb” Bergensten, Minecraft se tornou o game mais vendido da história, com 238 milhões de cópias.
+         
+         Onde posso jogar Minecraft?
+         minecraft
+         Interface do jogo
+         A versão original está disponível em sete plataformas: PC, PlayStation 4, PlayStation 5, Xbox One, Xbox Series S, Xbox Series X e Nintendo Switch.
+         
+         Já a Pocket Edition, criada especialmente para dispositivos móveis, pode ser baixada em smartphones ou tablets com sistemas operacionais Android e iOS.
+         
+         Como baixar Minecraft?
+         No PC, entre no site oficial do game clicando aqui e crie uma conta. Depois, procure pelo botão “Obter Minecraft”. Em seguida, vá até a opção “Computador”, escolha uma das duas edições (Jogo de Base ou Coleção Deluxe) e selecione a forma de pagamento.
+         
+         Após concluir a compra, um link será gerado para você baixar o launcher e instalá-lo no computador. Aí é só abrir o cliente e esperar o download do jogo terminar.
+         
+         
+         Vale lembrar que o pacote é composto pelas versões Java e Bedrock. Dá pra jogar ambas. Em termos de conteúdo, elas são idênticas.
+         
+         A única diferença é a questão do crossplay. Na Bedrock, podemos jogar com players de várias outras plataformas, como consoles e smartphones. Na Java, não.
+         
+         Nos consoles, você terá que entrar na loja virtual do seu videogame. São elas: PS Store (PlayStation), Microsoft Store (Xbox) e Nintendo eShop (Nintendo). Procure por Minecraft no catálogo, efetue a compra e baixe o jogo para a sua biblioteca.
+         
+         Nos dispositivos móveis, basta encontrar o game na loja de aplicativos do seu aparelho, ou seja, Google Play (Android) e App Store (iOS).
+         
+         Minecraft é crossplay?
+         Sim, o game tem suporte a crossplay, ou seja, permite que players de diferentes plataformas joguem juntos em um mesmo servidor. Isso significa, por exemplo, que uma pessoa do Xbox One pode jogar com outra do PlayStation 4.
+         
+         Essa funcionalidade, no entanto, só está habilitada na versão Bedrock. Nela, dá pra reunir players do PC, PlayStation 4, PlayStation 5, Xbox One, Xbox Series X/S, Nintendo Switch, Android e iOS.
+         
+         Na versão Java, só é possível jogar com usuários de computador (Windows, Mac e Linux). Tenha isso em mente na hora de chamar os amigos!
+         
+         Quanto custa Minecraft?
+         tudo sobre o minecraft
+         Construa casas e se esconda do perigo!
+         Computador | R$ 129,00
+         Xbox One e Series | R$ 74,95
+         PS4 e PS5 | R$ 83,50
+         Nintendo Switch | R$ 74,95
+         iOS | R$ 39,90
+         Android | R$ 37,99
+         Modos de jogo do Minecraft
+         Sobrevivência
+         Hardcore
+         Criativo
+         Aventura
+         Espectador
+         Modo Sobrevivência do Minecraft
+         Este é o modo mais popular do jogo, no qual os players precisam coletar recursos, construir abrigos e sobreviver a monstros, que só aparecerem à noite ou nas profundezas do solo. Enquanto isso, temos que gerenciar as barras de fome e saúde. Caso contrário, morremos.
+         
+         Modo Hardcore do Minecraft
+         É idêntico ao modo sobrevivência, só que muito mais desafiador. A partida é jogada em um nível de dificuldade altíssimo, pois o player só tem direito a uma vida. Se ele morrer, acaba. Não é possível recuperar o loot e renascer no mapa.
+         
+         Modo Criativo do Minecraft
+         Aqui, os jogadores têm acesso a todos os recursos e ferramentas de forma ilimitada. Eles podem construir sem restrições e experimentar diferentes ideias e conceitos. É um modo descontraído e que aguça a imaginação dos players.
+         
+         Modo Aventura do Minecraft
+         Este modo é projetado para jogadores que desejam experimentar histórias e aventuras criadas por outros players. Eles podem jogar desafios personalizados e seguir as regras estabelecidas pelo criador do mapa.
+         
+         Modo Espectador do Minecraft
+         Aqui, jogadores não podem interagir com o mundo, mas podem voar e assistir às ações que acontecem no mapa como se fossem um espectador de plateia.
+         
+         Como jogar Minecraft
+         jogo minecraft
+         Cave minas para conseguir recursos
+         No modo sobrevivência, a partida começa quando entramos num mapa gerado de forma aleatória. Ele terá ambientes, relevos, animais, objetos e estruturas diversas.
+         
+         Os monstros não aparecem durante o dia. Temos que aproveitar esse período para coletar recursos naturais, como pedra, madeira, ouro e comida, para construir estruturas, matar nossa fome e recuperar pontos de vida, caso seja necessário.
+         
+         
+         Usando esses recursos no inventário ou na mesa de trabalho, é possível criar objetos. Cada item possui uma receita própria. Um exemplo clássico é a tocha, que demanda uma unidade de graveto e uma unidade de carvão.
+         Podemos fabricar uma enorme variedade de itens, que vão deste peças de casa, como janelas, portas, lajes e escadas, a ferramentas, como picaretas, pás e espadas.
+         Alguns utensílios são forjados com minerais. Quanto mais raro o recurso é, mais durável o objeto se torna. A madeira é o mais comum. O diamante é o mais poderoso. Para achar minerais raros, é preciso cavar fundo.
+         Quando chega a noite, monstros começam a surgir pelo mapa. Algumas das criaturas mais comuns são: zumbis, esqueletos, aranhas, slimes, vampiros, creepers e endermans. Fica a escolha do jogador enfrentá-los ou apenas evitá-los.
+         Os dias, então, vão se passando. Você vai captando mais recursos, ficando mais forte e explorando locais cada vez mais inóspitos. Até enjoar.
+         Como colocar skins no Minecraft
+         skins minecraft
+         Existem diversas skins no game
+         Skins no Minecraft são roupinhas alternativas que podemos botar no personagem. Dá pra colocar, por exemplo, o boneco vestido de Batman, Homem-Aranha ou qualquer outro visual que nos agrade.
+         Fica ao seu critério criar uma roupinha do zero através do site NovaSkin ou baixar uma já pronta no portal NameMC. Existem milhares de skins produzidas pela comunidade – e das mais diferentes cores, inspirações e modelos.
+         Para adicioná-la ao jogo, basta baixar o arquivo da skin e abrir o cliente do Minecraft. Feito isso, não abra o game ainda. Vá até a aba “Skins”, localizada no canto superior da tela e, em seguida, clique em “Nova skin”.   
+         Aí é só upar o arquivo da skin desejada, colocar um nome nela, escolher se é um modelo masculino (clássico) ou feminino (fino) e clicar em salvar.
+         É possível fazer isso com várias skins, justamente para você ter um enorme “guarda-roupa” e poder trocar na hora que quiser.</p>      
+  </body>
+</html>

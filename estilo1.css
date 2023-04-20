@@ -1,0 +1,50 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    background: pink;
+    display: flex;
+    min-height: 100%;
+}
+
+.container{
+        width: 960px;
+        margin: 0 auto;
+}
+#logo{
+    background: goldenrod;
+    width: 20%;
+    height: 100px;
+    display: flex;
+    padding: 10px;
+}
+nav{
+    background: purple;
+    height: 100px;
+    display: flex;
+    width: 80%;
+    padding: 10px;
+}
+main{
+    background: blue;
+    height: 100%;
+    display: flex;
+}
+aside{
+    background: yellowgreen;
+    min-height: 100%;
+    width: 33%;
+    padding: 10px;
+}
+section{
+    background: green;
+    width: 67%;
+    min-height: 100%;
+    padding: 10px;
+}
+footer{
+    background: gray;
+    min-height: 100%;
+    padding: 10px;
+}
